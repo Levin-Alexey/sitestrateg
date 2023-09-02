@@ -10,23 +10,33 @@
  */
 
 ?>
+<footer class="templateux-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-md-left text-center">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i>
+                    by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+            <div class="col-md-6 text-md-right text-center footer-social">
+                <a href="#" class="p-3"><span class="icon-facebook2"></span></a>
+                <a href="#" class="p-3"><span class="icon-twitter2"></span></a>
+                <a href="#" class="p-3"><span class="icon-dribbble2"></span></a>
+                <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fitnes' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'fitnes' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'fitnes' ), 'fitnes', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+</div>
+
+
+<script src="js/scripts-all.js"></script>
+<script src="js/main.js"></script>
 
 <?php wp_footer(); ?>
 
