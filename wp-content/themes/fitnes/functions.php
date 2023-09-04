@@ -138,7 +138,7 @@ add_action( 'widgets_init', 'fitnes_widgets_init' );
  * Enqueue scripts and styles.
  */
 function fitnes_scripts() {
-	wp_enqueue_style( 'fitnes-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'fitnes-style', get_stylesheet_uri() . "/assets/css/style.css", array(), _S_VERSION );
 	wp_style_add_data( 'fitnes-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'fitnes-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
